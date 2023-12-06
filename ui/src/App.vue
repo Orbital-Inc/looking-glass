@@ -4,7 +4,7 @@
       <Loading v-show="!isLoaded"></Loading>
       <div v-show="isLoaded">
         <n-space vertical>
-          <h2>Looking Glass Server</h2>
+          <h2>Looking Glass | Orbital, Inc.</h2>
           <Information
             v-model:wsMessage="wsMessage"
             v-model:componentConfig="componentConfig"
@@ -29,9 +29,9 @@
               text
               tag="a"
               target="_blank"
-              href="https://github.com/wikihost-opensource/als"
+              href="https://orbitalsolutions.ca"
             >
-              WIKIHOST Opensource - ALS (Github)
+              Orbital, Inc.
             </n-button>
           </div>
         </n-space>
