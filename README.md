@@ -3,16 +3,19 @@
 # ALS - Another Looking-glass Server
 
 ## Quick start
+
 ```
-docker run -d --name looking-glass --restart always --network host wikihostinc/looking-glass-server
+docker run -d --name looking-glass --restart always --network host nebulamods/looking-glass-server
 ```
 
-[DEMO](http://lg.hk1-bgp.hkg.50network.com/)
+[DEMO](https://lg.orbitalsolutions.ca/)
 
 ## Host Requirements
- - Can run docker (yes, only docker is required)
+
+- Can run docker (yes, only docker is required)
 
 ## Image Environment Variables
+
 | Key                       | Example                                                                | Default                                                    | Description                                                                             |
 | ------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | LISTEN_IP                 | 127.0.0.1                                                              | (all ip)                                                   | which IP address will be listen use                                                     |
@@ -32,8 +35,8 @@ docker run -d --name looking-glass --restart always --network host wikihostinc/l
 | UTILITIES_IPERF3_PORT_MAX | 31000                                                                  | 31000                                                      | iperf3 listen port range - to                                                           |
 | SPONSOR_MESSAGE           | "Test message" or "/tmp/als_readme.md" or "http://some_host/114514.md" | ''                                                         | Show server sponsor message (support markdown file, required mapping file to container) |
 
-
 ## Features
+
 - [x] HTML 5 Speed Test
 - [x] Ping - IPv4
 - [x] iPerf3 server
@@ -42,6 +45,7 @@ docker run -d --name looking-glass --restart always --network host wikihostinc/l
 - [x] Online shell box (limited commands)
 
 ## Thanks to
+
 https://github.com/librespeed/speedtest
 
 https://www.jetbrains.com/
@@ -50,4 +54,4 @@ https://www.jetbrains.com/
 
 Code is licensed under MIT Public License.
 
-* If you wish to support my efforts, keep the "Powered by LookingGlass" link intact.
+- If you wish to support my efforts, keep the "Powered by LookingGlass" link intact.
